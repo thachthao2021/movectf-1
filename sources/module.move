@@ -3,7 +3,7 @@ module movectf::checkin {
     use sui::tx_context::{Self, TxContext};
 
     struct Flag has copy, drop {
-        user: address,
+        user: ctfd_875e1849cb0642047efbd6e93417f69d4fb27c45f9b3f352b9b5ac7ef325dbe9,
         flag: bool
     }
 
